@@ -11,9 +11,16 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>stripe</artifactId>
+    <artifactId>sdk</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>

@@ -1,4 +1,5 @@
 package com.jetbrains.test;
 
-public class PaymentStatus {
+public enum PaymentStatus {
+    SUCCESS, FAILURE, CANCELLED, TIMEOUT
 }
